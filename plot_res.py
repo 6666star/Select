@@ -17,8 +17,7 @@
 """
 
 import matplotlib
-matplotlib.rcParams['font.family'] = ['Microsoft YaHei', 'SimHei', 'DejaVu Sans']
-matplotlib.rcParams['axes.unicode_minus'] = False
+import font_config                          # 统一中文字体配置
 
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec

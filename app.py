@@ -16,8 +16,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import streamlit as st
 import matplotlib
 matplotlib.use("Agg")                       # 非交互后端，适配 Streamlit
-matplotlib.rcParams['font.family'] = ['Microsoft YaHei', 'SimHei', 'DejaVu Sans']
-matplotlib.rcParams['axes.unicode_minus'] = False
+import font_config                          # 统一中文字体配置
 
 import matplotlib.pyplot as plt
 import numpy as np
